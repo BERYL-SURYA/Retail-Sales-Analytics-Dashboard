@@ -37,19 +37,13 @@ An interactive Power BI dashboard built to analyze retail sales performance, cus
 
 This project uses the **Online Retail II** dataset from the UCI Machine Learning Repository.
 
-Dataset:
-**Online Retail II**
+- **Dataset:** Online Retail II
+- **Transactions:** 1,067,371
+- **Period:** December 2009 – December 2011
+- **Domain:** Online retail / e-commerce
+- **Source:** UCI Machine Learning Repository
 
-The dataset contains retail transactions including:
-
-- Invoice
-- Stock Code
-- Description
-- Quantity
-- Invoice Date
-- Price
-- Customer ID
-- Country
+[View the Online Retail II dataset](https://archive.ics.uci.edu/dataset/502/online%2Bretail%2Bii)
 
 ## 🔄 Data Preparation
 
@@ -114,6 +108,37 @@ Analyzes:
 - Time-series analysis
 - Power BI reporting
 
+## 📌 Key Insights
+
+The dashboard enables analysis of:
+
+- Overall sales performance across the complete transaction period
+- Monthly sales trends and changes over time
+- Countries contributing to sales
+- Products generating the highest sales and quantities
+- Customers generating the highest sales
+- Customers placing the highest number of orders
+- Differences between sales and cancellation transactions
+
+The dashboard is interactive, allowing users to filter the analysis by year, country, and transaction type.
+
+
+## 🔄 Project Workflow
+
+```text
+Raw Retail Data
+      ↓
+Power Query
+      ↓
+Data Cleaning & Transformation
+      ↓
+Data Modeling
+      ↓
+Power BI Visualizations
+      ↓
+Interactive Dashboard
+      ↓
+Business Insights
 ## 📁 Project Structure
 
 ```text
